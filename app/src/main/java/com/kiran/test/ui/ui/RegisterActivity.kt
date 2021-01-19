@@ -1,11 +1,12 @@
-package com.kiran.test
+package com.kiran.test.ui.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.kiran.test.R
 
-class AddStudentActivity : AppCompatActivity() {
+class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_add_student)
+        setContentView(R.layout.activity_register)
     }
 }
